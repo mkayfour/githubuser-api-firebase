@@ -1,13 +1,12 @@
-import React, { useContext, useState } from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 import './App.css';
 
 import UserContext from './context/UserContext';
-import { toast, ToastContainer } from 'react-toastify';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import firebase from 'firebase/app';
 import 'firebase/auth';
